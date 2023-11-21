@@ -14,11 +14,39 @@ body {
   align-items: center;
 }
 
+.nav-title {
+  font-size: 30px;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+
+}
+
+.ActiveOption {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  border: 4px solid black;
+}
+
+.Option {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  
+}
+
 .nav-section {
   display: flex;
   justify-content: space-between;
- 
 }
+
+
 
 .nav-button {
   margin: 44px;
@@ -33,6 +61,8 @@ body {
 
 .itemcount-button {
 margin: 10px 30px 10px 30px;
+color: white;
+background-color: black;
 }
 
 .itemcount-cart {
@@ -56,7 +86,8 @@ margin: 10px 30px 10px 30px;
 .carditem {
   display: inline-block;
   margin: 0 auto;
-  
+  border: 3px solid black;
+  padding: 10px;
 }
 
 .header {
@@ -83,7 +114,50 @@ margin: 10px 30px 10px 30px;
   align-items: center;
 }
 
+.item-button {
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: black;
+}
 
+.item-link {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+
+
+.carditem-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.carditem-border {
+  width: fit-content;
+  border: 2px solid black;
+}
+
+.itemdetail-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.itemdetail-button {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 3px;
+  margin: 20px;
+}
 
 button {
   color: white;
